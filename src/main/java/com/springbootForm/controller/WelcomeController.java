@@ -14,7 +14,7 @@ public class WelcomeController {
 	
 	@GetMapping("/form")
 	public String showForm() {
-		return "form";
+		return "user/form";
 	}
 	
 	

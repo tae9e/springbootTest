@@ -1,16 +1,17 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <!-- Bootstrap CSS -->
-	<link href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css"
-		rel="stylesheet">
+<link href="/webjars/bootstrap/5.3.2/css/bootstrap.min.css"
+	rel="stylesheet">
 </head>
 
-	
+
 <body>
 
 
@@ -22,7 +23,7 @@
 			<div class="collapse navbar-collapse"
 				id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav ms-auto">
-					<li><a href="/form">회원가입</a></li>
+					<li><a href="<c:url value='/form' />">회원가입</a></li>
 				</ul>
 			</div>
 		</div>
